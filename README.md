@@ -18,10 +18,7 @@ FlexiCSS is a lightweight, responsive CSS framework designed to make web develop
 
 To use FlexiCSS, include the CSS files in the `<head>` of your HTML document:
 
-```html
-<link rel="stylesheet" href="path/to/flexicss.css">
-
-**Usage**
+## Usage
 
 ## Responsive Grid System
 
