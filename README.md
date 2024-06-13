@@ -22,6 +22,7 @@ To use FlexiCSS, include the CSS files in the `<head>` of your HTML document:
 
 ## Responsive Grid System
 
+``
 <div class="container">
   <div class="row">
     <div class="col">Column 1</div>
