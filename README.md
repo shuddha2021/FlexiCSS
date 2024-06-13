@@ -33,40 +33,56 @@ To use FlexiCSS, include the CSS files in the `<head>` of your HTML document:
 
 ## Customizable Components
 
-## Buttons
-
+```html
 <button class="btn btn-primary">Primary Button</button>
 <button class="btn btn-secondary">Secondary Button</button>
+  ```
+
+## Buttons
+
+```<button class="btn btn-primary">Primary Button</button>
+<button class="btn btn-secondary">Secondary Button</button>
+ ```
 
 ## Forms
 
+```
 <input type="text" class="form-control" placeholder="Text input">
+ ```
 
 ## Navigation Bar
 
+```
 <nav class="navbar">
   <a class="navbar-brand" href="#">Brand</a>
 </nav>
+ ```
 
 ## Utility Classes
 
+```
 <div class="m-3 p-3 text-center">Content with margin and padding</div>
+ ```
 
 ## Animations
 
+```
 <div class="fade-in">This will fade in</div>
 <div class="slide-in">This will slide in</div>
+ ```
 
 ## Customizable Variables
 
 You can customize the variables in variables.css to match your design language.
 
+```
 :root {
   --primary-color: #ff5733;
   --secondary-color: #33c4ff;
   --background-color: #f8f9fa;
   --text-color: #343a40;
 }
+ ```
 
 ## License
 
