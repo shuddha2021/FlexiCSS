@@ -29,6 +29,7 @@ To use FlexiCSS, include the CSS files in the `<head>` of your HTML document:
     <div class="col">Column 2</div>
   </div>
 </div>
+  ```
 
 ## Customizable Components
 
