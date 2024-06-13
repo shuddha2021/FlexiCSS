@@ -1,0 +1,25 @@
+/* flexicss.css - Main CSS file for FlexiCSS */
+@import url('flexicss-grid.css');
+@import url('flexicss-components.css');
+@import url('flexicss-utilities.css');
+@import url('flexicss-animations.css');
+@import url('variables.css');
+
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dark mode support */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Accessibility features */
+:focus {
+    outline: 2px dashed var(--focus-color);
+    outline-offset: 4px;
+}

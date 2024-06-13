@@ -1,0 +1,22 @@
+/* variables.css - Customizable Variables */
+
+/* Colors */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --background-color: #ffffff;
+    --text-color: #212529;
+    --focus-color: #80bdff;
+    --navbar-bg-color: #343a40;
+    --navbar-text-color: #ffffff;
+}
+
+/* Fonts */
+:root {
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Spacing */
+:root {
+    --spacer: 1rem;
+}

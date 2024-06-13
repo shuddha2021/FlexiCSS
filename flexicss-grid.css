@@ -1,0 +1,47 @@
+/* flexicss-grid.css - Responsive Grid System */
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    flex: 1;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Responsive columns */
+@media (min-width: 576px) {
+    .col-sm {
+        flex: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md {
+        flex: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg {
+        flex: 1;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-xl {
+        flex: 1;
+    }
+}
